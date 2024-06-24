@@ -1,0 +1,11 @@
+
+### get account
+POST http://localhost:8080/transaction/use
+Accept: application/json
+
+{
+  "userId": 2,
+  "initialBalance": "1000000000",
+  "amount": 12345
+
+}

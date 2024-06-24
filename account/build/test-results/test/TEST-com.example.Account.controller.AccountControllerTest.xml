@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.Account.controller.AccountControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-22T13:21:52" hostname="ihuigyeongs-MacBook-Pro.local" time="0.13">
+  <properties/>
+  <testcase name="successGetAccount()" classname="com.example.Account.controller.AccountControllerTest" time="0.13"/>
+  <system-out><![CDATA[2024-06-22T22:21:52.334+09:00  INFO 5859 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.Account.controller.AccountControllerTest]: AccountControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-22T22:21:52.346+09:00  INFO 5859 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.Account.AccountApplication for test class com.example.Account.controller.AccountControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2024-06-22T22:21:52.359+09:00  INFO 5859 --- [    Test worker] c.e.A.controller.AccountControllerTest   : Starting AccountControllerTest using Java 21.0.2 with PID 5859 (started by leeheekyung in /Users/leeheekyung/Downloads/account/Account)
+2024-06-22T22:21:52.359+09:00  INFO 5859 --- [    Test worker] c.e.A.controller.AccountControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-06-22T22:21:52.651+09:00  INFO 5859 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-06-22T22:21:52.652+09:00  INFO 5859 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-06-22T22:21:52.654+09:00  INFO 5859 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-06-22T22:21:52.662+09:00  INFO 5859 --- [    Test worker] c.e.A.controller.AccountControllerTest   : Started AccountControllerTest in 0.315 seconds (process running for 3.62)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /account/876
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.Account.controller.AccountController
+           Method = com.example.Account.controller.AccountController#getAccount(Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"id":null,"accountUser":null,"accountNumber":"3456","accountStatus":"IN_USE","balance":null,"registeredAt":null,"unRegisteredAt":null,"createAt":null,"updateAt":null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
